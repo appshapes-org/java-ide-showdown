@@ -1,0 +1,25 @@
+{
+	"name": ".NET Development Container",
+	"dockerFile": "Dockerfile",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-dotnettools.dotnet-maui"
+			],
+			"settings": {
+				"breadcrumbs.enabled": false,
+				"editor.codeLens": false,
+				"editor.formatOnPaste": true,
+				"editor.formatOnSave": true,
+				"editor.lineNumbers": "off",
+				"editor.links": false,
+				"editor.minimap.enabled": false,
+				"editor.renderWhitespace": "none",
+				"editor.suggestSelection": "first",
+				"explorer.confirmDelete": false,
+				"explorer.confirmDragAndDrop": false,
+				"terminal.integrated.copyOnSelection": true
+			}
+		}
+	}
+}
